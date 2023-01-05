@@ -1,2 +1,2 @@
 packages:
-  - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/dbt-labs/dbt-utils.git" # git HTTPS URL
+  - git: "https://{{env_var('DBT_ENV_SECRET_GIT_CREDENTIAL')}}@github.com/{{env_var('DBT_ENV_SECRET_USERNAME')}}/dbt-utils.git" # git HTTPS URL
